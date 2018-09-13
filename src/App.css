@@ -1,0 +1,17 @@
+.App {
+  text-align: left;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.dropdown-menu {
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+#page-wrap {
+    height: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,9 @@
+#network-2d {
+    height: 100%;
+    position: relative;
+    background: #FFF;
+}
+
+#network-2d canvas {
+    height: 100%;
+}

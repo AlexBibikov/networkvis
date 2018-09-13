@@ -1,0 +1,10 @@
+#network-3d {
+    height: 100%;
+    position: relative;
+
+    background: #333333;
+    background: -moz-radial-gradient(center, ellipse cover, #333333 0%, #000000 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #333333 0%,#000000 100%);
+    background: radial-gradient(ellipse at center, #333333 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#000000',GradientType=1 );
+}

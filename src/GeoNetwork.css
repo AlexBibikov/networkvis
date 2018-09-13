@@ -1,0 +1,83 @@
+#geo-network { 
+    height: 100%;
+}
+
+.chartFrame {
+    width: 800px;
+    height: 530px;
+    border: none;
+ }
+
+#popup-burger-menu.popup-burger-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px 0 0 4px;
+    border: none;
+    text-align: center;
+    width: 18px;
+    height: 14px;
+    font: 16px/14px Tahoma, Verdana, sans-serif;
+    color: #c3c3c3;
+    text-decoration: none;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+ 
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#popup-burger-menu.popup-burger-menu:hover {
+    color: #555;
+    background-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#popup-burger-menu.popup-burger-menu:active {
+    color: #000;
+    background-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.leaflet-popup-content .dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.leaflet-popup-content .dropdown .dropdown-menu {
+    top: 18px;
+}
+
+#popup-chart-content {
+    display: none;
+}
+
+#select-router .dropdown-menu {
+  max-height: 60vh;
+  overflow: auto;
+  min-width: 168px;
+  max-width: 800px;
+}
+
+.open-in-new-tab {
+    font-size: 0.9em;
+    position: absolute;
+    top: 2px;
+    left: 28px;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+}
+
+.chart-labels {
+    position: absolute;
+    left: 100px;
+}
+
+.leaflet-arcs-pane path {
+    transition: stroke 5s, stroke-width 5s;
+    -webkit-transition: stroke 5s, stroke-width 5s;
+}

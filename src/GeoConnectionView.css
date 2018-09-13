@@ -1,0 +1,65 @@
+
+#empty {
+    position: absolute;
+}
+
+.router-view {
+}
+
+.box {
+    display: inline-block;
+    background: #ccc;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: absolute;
+    margin: 20px;
+    top: 64px;
+}
+
+.router-view .panel-heading {
+    font-weight: 600;
+}
+
+#router-interfaces td span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#router-interfaces td span.core {
+    color: #444;
+}
+
+#router-interfaces td span.edge {
+    color: #999;
+}
+
+.router-view .panel-heading #btn-close{
+    position: absolute;
+    right: 20px;
+}
+
+.router-view .panel-heading #btn-fold{
+    position: absolute;
+    right: 38px;
+}
+
+.router-view .panel-heading #btn-back{
+    float: left;
+}
+
+.router-view .panel-heading button span {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.router-view .react-bs-table .table-bordered>tbody>tr>td {
+    padding: 2px 8px;
+}
